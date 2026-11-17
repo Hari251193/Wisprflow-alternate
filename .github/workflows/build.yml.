@@ -1,0 +1,20 @@
+name: Build FlowFree APK
+on: [push, workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.10.2'
+      - run: unzip -o FlowFree_Android_Project.zip
+      - run: cd FlowFree && gradle assembleDebug --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: FlowFree-APK
+          path: FlowFree/app/build/outputs/apk/debug/app-debug.apk
