@@ -1,4 +1,4 @@
 date,symbol,name,price_at_pick,conviction,buy_range,thesis,status
-2026-11-20,HDFCBANK,HDFC Bank,821.80,High,800-835 (no chase >860),Multi-yr low valuation; deposits +18.8%; GNPA 1.11%; CEO overhang cleared. nifty_at_pick=25514.30,"Hold (20-Nov ~846.6, +3.0%; add <=835)"
-2026-11-20,HCLTECH,HCL Technologies,1345.00,Medium,1300-1360 (no chase >1420),Guidance raised; AI rev +78%; record bookings; near 200-DMA. Price=18-Nov close. nifty_at_pick=25514.30,"Accumulate (20-Nov ~1344.4, 0.0%)"
-2026-11-20,POLYCAB,Polycab India,,Watchlist,,IBC flag cleared: NCLAT set aside NCLT order 30-Oct; F&O exclusion withdrawn. Candidate pending price check,Candidate
+2026-11-20,HDFCBANK,HDFC Bank,821.80,High,800-835 (no chase >860),Multi-yr low valuation; deposits +18.8%; GNPA 1.11%; CEO overhang cleared. nifty_at_pick=25514.30,Accumulate (23-Nov est ~817-830 after bank selloff; back in range)
+2026-11-20,HCLTECH,HCL Technologies,1345.00,Medium,1300-1360 (no chase >1420),Guidance raised; AI rev +78%; record bookings; near 200-DMA. Price=18-Nov close. nifty_at_pick=25514.30,Accumulate (23-Nov price unverified)
+2026-11-23,POLYCAB,Polycab India,7570.00,Medium,7300-7650 (no chase >7900),"Q2 rev +53%, PAT +43%; FMEG margin 10%; IBC flag cleared 30-Oct. Price=20-Nov close. nifty_at_pick=25349.65",Accumulate (new)
